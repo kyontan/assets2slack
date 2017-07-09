@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  crawler:
+    build:
+      context: .
+    image: kyontan/assets2slack
+    env_file: .env
+    depends_on:
+      - selenium-chrome
+    links:
+      - selenium-chrome
+  selenium-chrome:
+    image: selenium/standalone-chrome
+    ports:
+      - "4444:4444"
