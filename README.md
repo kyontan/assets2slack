@@ -4,6 +4,10 @@ _to share your assets to others_
 
 Post your total assets and each banks assets to Slack
 
+## Screenshot
+
+![](https://dev.monora.me/img/assets2slack_example.png?v2)
+
 ## How to use
 
 ### On-premise
@@ -29,6 +33,8 @@ Maybe, you want to use `capybara-webkit`, or you can use any selenium drivers.
 ### Docker
 
 you need `docker-compose` to use this.
+
+Available image for Docker Hub: [kyontan/assets2slack](https://hub.docker.com/r/kyontan/assets2slack/)
 
 #### Prepare
 
